@@ -1,11 +1,22 @@
 # WhaTicket Versão Saas com Módulo Kanban, Modo Noturno e as seguintes integrações:</br>
 
+Desenvolvido pela PLW Designer, vendida pela Launcher & Co.
+
 🗣️ DialogFlow</br>
 🔄 N8N</br>
 🌐 WebHooks</br>
 🤖 TypeBot</br>
 💬 ChatGPT</br>
 
+Sugestão de VPS:
+
+BASIC: 4 vCores, 6 GB de RAM e 100 GB de SSD NVMe $4.99 USD Mensal com taxa de setup de $4.99.
+
+STANDARD: 6 vCores, 12 GB de RAM e 200 GB de SSD NVMe $9.99 USD Mensal com taxa de setup de $5.99.
+
+```
+https://control.peramix.com/?affid=14
+```
 Informações Importantes:
 Apenas suporte básico.
 
@@ -35,11 +46,31 @@ Apenas suporte básico.
 🆕 Novo layout da página de login. </br>
 💬 Indicação “Digitando” ou “Gravando” aparece no ticket, no canto inferior direito, ao lado do nome. </br>
 
-
-</br>
-
 Biblioteca Baileys Atualizada:</br>
 
 V 6.7.9
 
 Instalador atualizado, versao NodeJS 20:
+
+```
+https://github.com/launcherbr/instalador.git
+```
+Notas Rápidas: </br>
+Requer servidor Ubuntu 20.04 LTS com ao menos 4 vcore e 8gb de ram.</br>
+Recomendamos Peramix, Contabo, e Hetzner</br>
+Não recomendamos Hostinger, Hostgator e Locaweb.</br>
+Evite latencia muito baixa e muito alta (servidor local e servidores na Europa)</br>
+
+Siga os arquivos de Instruções para instalação, você precisa ter acesso liberado ao Google Drive:
+
+```
+https://drive.google.com/drive/folders/16ZT6NnzD8kNBB18EpOYBGV4epWFJWWtZ?usp=drive_link
+```
+
+Confira no pdf aqui como gerar um webhook de retorno automático de pagamento da Efi.
+
+```
+https://drive.google.com/file/d/1Kjd-9NurK-7gw7_22-uIsZoB0MZ74YFp/view?usp=drivesdk
+```
+Personalizações:</br>
+As instruções para alteração de cores, logo, icones e nome da instalação estão nos arquivos de instruções.

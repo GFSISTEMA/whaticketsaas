@@ -608,8 +608,44 @@ const MessagesList = ({ ticket, ticketId, isGroup }) => {
           }
         }
         // console.log(message)
-        return
-      } else
+        return <VCardPreview contact={contact} numbers={obj[0].number} />
+      }
+      /* else if (message.mediaType === "vcard") {
+        let array = message.body.split("\n");
+        let obj = [];
+        let contact = "";
+        for (let index = 0; index < array.length; index++) {
+          const v = array[index];
+          let values = v.split(":");
+          for (let ind = 0; ind < values.length; ind++) {
+            if (values[ind].indexOf("+") !== -1) {
+              obj.push({ number: values[ind] });
+            }
+            if (values[ind].indexOf("FN") !== -1) {
+              contact = values[ind + 1];
+            }
+          }
+        }
+        return <VcardPreview contact={contact} numbers={obj[0].number} />
+      } */
+      /*else if (message.mediaType === "multi_vcard") {
+        console.log("multi_vcard")
+        console.log(message)
+        
+        if(message.body !== null && message.body !== "") {
+          let newBody = JSON.parse(message.body)
+          return (
+            <>
+              {
+              newBody.map(v => (
+                <VcardPreview contact={v.name} numbers={v.number} />
+              ))
+              }
+            </>
+          )
+        } else return (<></>)
+      }*/        
+      else
   
         if (message.mediaType === "image") {
           return <ModalImageCors imageUrl={message.mediaUrl} />;
